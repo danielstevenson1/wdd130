@@ -108,9 +108,10 @@ main section img{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+   
 }
 .card-img{
-    border: 10px solid var(--secondary-color)
+    border: 10px solid var(--nav-background-color)
 }
 #background{
     background-color: var(--nav-link-color);
