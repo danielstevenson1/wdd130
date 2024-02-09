@@ -25,7 +25,15 @@
 
 body{
     background-color:var(--primary-color) ;
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
+    h2{
+        margin: 0;
+    }
+
 
 #content{
     max-width: 1600px;
@@ -34,13 +42,21 @@ body{
 header{
     background-color:var(--accent2-color) ;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .logo, .icon{
     width: 80px;
+}
+.icon{
+    padding-top: 10px ;
 }
 
 nav a {
     color: var(--paragraph-color-on-color);
     text-align: center;
+    text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -48,6 +64,7 @@ nav a:hover{
     color: var(--paragraph-color-on-color);
     text-align: center;
     text-decoration: none;
+    background-color: var(--nav-hover-background-color);
 }
 #hero-img{
     width: 100%;
@@ -57,6 +74,10 @@ nav a:hover{
 }
 .home-title{
     color:var(--nav-hover-link-color) ;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: .8em;
+    margin-top: 10px;
 }
 h4{
     color: var(--nav-hover-link-color);
@@ -69,6 +90,10 @@ h4{
     color:var(--paragraph-color-on-color) ;
     background-color: var(--nav-link-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -78,23 +103,39 @@ h4{
 main section {
     text-align: center;
 }
-
+main section img{
+    box-sizing: ; 
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border;: 10px solid var(--secondary-color)
+}
 #background{
     background-color: var(--nav-link-color);
     height: 725px;
 }
-.msg{
+.mountians{
+    margin: 100px o;
+}
+.msg {
     background-color:var(--accent2-color) ;
+    font-size: .8pm;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color:var(--paragraph-color-on-color);
 }
 msg2{
     color: var(--nav-background-color);
+    font-family: var(--heading-font);
 }
 footer{
     color: var(--paragraph-color-on-white);
     background-color: var(--primary-color);
+    padding: 25px 50px;
 }
 footer a{
     color: var(--nav-hover-link-color);
@@ -102,4 +143,9 @@ footer a{
 }
 footer a:hover{
     color: var(--accent2-color);
+
+}
+footer .social img{
+    padding-top: 15px;
+    margin-top: 10;
 }
