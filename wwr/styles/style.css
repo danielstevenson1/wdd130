@@ -104,24 +104,23 @@ main section {
     text-align: center;
 }
 main section img{
-    box-sizing: ; 
+    box-sizing: border-box; 
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .card-img{
-    border;: 10px solid var(--secondary-color)
+    border: 10px solid var(--secondary-color)
 }
 #background{
     background-color: var(--nav-link-color);
     height: 725px;
 }
 .mountians{
-    margin: 100px o;
+    margin: 100px 0;
 }
 .msg {
     background-color:var(--accent2-color) ;
-    font-size: .8pm;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -147,5 +146,5 @@ footer a:hover{
 }
 footer .social img{
     padding-top: 15px;
-    margin-top: 10;
+    margin-top: 10px;
 }
