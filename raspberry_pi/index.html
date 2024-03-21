@@ -20,46 +20,56 @@
             </nav>
         </header>
         <div class="title-home">
-            <h2>Raspi-Docs</h2>
+            <h1>Raspi-Docs</h1>
             <p>Welcome to Raspi-Docs where we do all things Raspberry Pi</p>
         </div>
         <div class="slideshow-container">
             <div class="images">
-                <img src="styles/images/raspberry-pi-5.png" style="width:400px; height:100%;" alt="Raspberry Pi Image">
-                <div class="text">Raspi-Docs</div>
+                <img src="styles/images/Raspi-docs-logos.jpeg" style="width:300px; height:100%;" alt="Raspberry Pi Image">
             </div>
         </div>
         <div class="home-grid">
             <section class="tip">
-                <h3>SD Card</h3>
-                <p>How to install Linux on an SD card so we can start using our Raspberry Pi:</p>
+                <h3>Flash sd card</h3>   
+                <p>Flashing an OS onto a sd card is the first thing you need to do to start using your pi.</p>
                 <ul>
-                    <li>Install Raspberry Pi Imager from this link (<a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a>)</li>
-                    <li>Insert your SD card using an adapter then open the flasher and flash your desired OS</li>
-                    <li>Once you have the OS on your SD card, put it in your Pi and plug in the power and wait for it to boot</li>
+                    <li>Download raspberry pi Imager from https://www.raspberrypi.com/software/</li>
+                    <li>insert sd card into pc with adapter and choose your OS then click flash!</li>
+                    <li>when you click flash make sure you have chosen the corect storage device to flash to.</li>
                 </ul>
             </section>
-            <section class="tip">
-                <h3>Terminal</h3>
-                <p>Updating your Pi</p>
-                <ul>
-                    <li>Once you have set up your Pi, we need to make sure it is up to date.</li>
-                    <li>Press Ctrl+Alt+T to open the terminal and type <code>sudo apt update</code></li>
-                    <li>Once that is done, type <code>sudo apt upgrade -y</code></li>
-                    <li>Once your Pi is up to date, you can start experimenting</li>
-                </ul>
-            </section>
-            <section class="tip">
-                <h3>Install Apps</h3>
-                <p>Installing open-source software on your Pi</p>
-                <ul>
-                    <li>There are many different ways to install different applications, but we will use the apt library</li>
-                    <li>By using <code>sudo apt install (application)</code>, we can install most applications</li>
-                    <li>Here is a list of applications you can install using this process: GIMP, Inkscape, Blender, Zoom, SteamLink, LibreOffice, and much more</li>
-                </ul>
-            </section>
-        </div>
+                <section class="tip">
+                    <h3>Start your pi</h3>   
+                    <p>once you have flashed your os to your sd chard plug it into the back of your pi.</p>
+                    <ul>
+                        <li>power on you raspberry pi and wait for it to boot.</li>
+                        <li>Depending on your os the set up prossess will be diffrent but for the most part it will be simple.</li>
+                        <li>go through the steps of sutting up your pi and make sure you put in all the corect information.</li>
+                    </ul>
+                </section>
+
+                <section class="tip">
+                    <h3>terminal</h3>   
+                    <p>once your pi is set up we will need to update it.</p>
+                    <ul>
+                        <li>Either click on the terminal ccomand tor type ctrl + alt+ t</li>
+                        <li>Once the terminal is open type sudo apt update then hit enter.</li>
+                        <li>then once the operation is done type sudo apt full-upgrade -y to finish off the update</li>
+                    </ul>
+                </section>
+
+                <section class="tip">
+                    <h3>Apps</h3>   
+                    <p>Lets install some apps to get started</p>
+                    <ul>
+                        <li>there are many ways to install apps through linux but the comand line works the best.</li>
+                        <li>type sudo apt install "options below"</li>
+                        <li>gimp, inkscape, timeshift, steam, vlc and much more</li>
+                    </ul>
+                </section>            
+            </div>
         <footer>
+
             <p>Raspberry Pi Docs &copy; 2024 - Daniel Stevenson</p>
             <p><a href="site-plan.html">Site Plan</a></p>
             <p><a href="contactus.html">Contact Us</a></p>
