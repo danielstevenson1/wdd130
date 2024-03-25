@@ -82,6 +82,8 @@ body {
     display: inline-block;
     
 }
+
+
 .images img {
     width: 100%; /* Use 100% width to ensure the image fills its container */
     height: auto; /* Maintain aspect ratio */

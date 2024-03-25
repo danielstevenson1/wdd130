@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>raspi-docs</title>
     <link rel="stylesheet" type="text/css" href="styles/raspberry.css">
+    <style>
+        /* Define a class for the custom bullet */
+        .custom-bullet {
+            width: 10px; /* Adjust size as needed */
+            height: 10px; /* Adjust size as needed */
+            vertical-align: middle; /* Align the bullet point vertically */
+            margin-right: 5px; /* Adjust spacing between bullet point and text */
+        }
+
+        /* Apply the custom bullet to all <li> elements */
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+        }
+
+        li::before {
+            content: ""; /* Ensure content is empty */
+            display: inline-block; /* Display as inline block */
+            width: 10px; /* Adjust size as needed */
+            height: 10px; /* Adjust size as needed */
+            background-image: url("data:image/svg+xml;utf8,<svg width='10' height='10'><circle cx='5' cy='5' r='4' fill='green'/></svg>"); /* Insert SVG code */
+            background-size: cover; /* Ensure the SVG scales correctly */
+            margin-right: 5px; /* Adjust spacing between bullet point and text */
+        }
+
+        /* Change cursor to crosshair */
+        body {
+            cursor: crosshair;
+        }
+    </style>
 </head>
 <body>
     <div id="content">
@@ -38,38 +67,35 @@
                     <li>when you click flash make sure you have chosen the corect storage device to flash to.</li>
                 </ul>
             </section>
-                <section class="tip">
-                    <h3>Start your pi</h3>   
-                    <p>once you have flashed your os to your sd chard plug it into the back of your pi.</p>
-                    <ul>
-                        <li>power on you raspberry pi and wait for it to boot.</li>
-                        <li>Depending on your os the set up prossess will be diffrent but for the most part it will be simple.</li>
-                        <li>go through the steps of sutting up your pi and make sure you put in all the corect information.</li>
-                    </ul>
-                </section>
-
-                <section class="tip">
-                    <h3>terminal</h3>   
-                    <p>once your pi is set up we will need to update it.</p>
-                    <ul>
-                        <li>Either click on the terminal ccomand tor type ctrl + alt+ t</li>
-                        <li>Once the terminal is open type sudo apt update then hit enter.</li>
-                        <li>then once the operation is done type sudo apt full-upgrade -y to finish off the update</li>
-                    </ul>
-                </section>
-
-                <section class="tip">
-                    <h3>Apps</h3>   
-                    <p>Lets install some apps to get started</p>
-                    <ul>
-                        <li>there are many ways to install apps through linux but the comand line works the best.</li>
-                        <li>type sudo apt install "options below"</li>
-                        <li>gimp, inkscape, timeshift, steam, vlc and much more</li>
-                    </ul>
-                </section>            
-            </div>
+            <section class="tip">
+                <h3>Start your pi</h3>   
+                <p>once you have flashed your os to your sd chard plug it into the back of your pi.</p>
+                <ul>
+                    <li>power on you raspberry pi and wait for it to boot.</li>
+                    <li>Depending on your os the set up prossess will be diffrent but for the most part it will be simple.</li>
+                    <li>go through the steps of sutting up your pi and make sure you put in all the corect information.</li>
+                </ul>
+            </section>
+            <section class="tip">
+                <h3>terminal</h3>   
+                <p>once your pi is set up we will need to update it.</p>
+                <ul>
+                    <li>Either click on the terminal ccomand tor type ctrl + alt+ t</li>
+                    <li>Once the terminal is open type sudo apt update then hit enter.</li>
+                    <li>then once the operation is done type sudo apt full-upgrade -y to finish off the update</li>
+                </ul>
+            </section>
+            <section class="tip">
+                <h3>Apps</h3>   
+                <p>Lets install some apps to get started</p>
+                <ul>
+                    <li>there are many ways to install apps through linux but the comand line works the best.</li>
+                    <li>type sudo apt install "options below"</li>
+                    <li>gimp, inkscape, timeshift, steam, vlc and much more</li>
+                </ul>
+            </section>            
+        </div>
         <footer>
-
             <p>Raspberry Pi Docs &copy; 2024 - Daniel Stevenson</p>
             <p><a href="site-plan.html">Site Plan</a></p>
             <p><a href="contactus.html">Contact Us</a></p>
