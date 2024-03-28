@@ -52,7 +52,7 @@ nav a:hover {
     height: 350px;
     border: 2px solid black;
     border-radius: 25px;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px  20px 5px black;
     word-wrap: break-word;
 
 }
@@ -132,4 +132,62 @@ footer .social img {
 body {
     background-color: #AABD8C;
   }
-  
+/* faq page */
+/* FAQ PAGE SPECIFIC STYLES */
+/* FAQ PAGE SPECIFIC STYLES */
+.title-faq {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Make the boxes vertical */
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.question {
+    background-color: #A62626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    margin: auto; /* Center the boxes horizontally */
+    box-shadow: 10px 10px  20px 5px black;
+}
+
+.question h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.question p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.faq-picture {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust proportionally */
+    margin-top: 30px;
+    
+}
+
+/* Adjustments to other styles */
+header {
+    background-color: #A62626;
+}
+
+nav a:hover {
+    background-color: #A62626;
+    color: #FFF;
+}
+
+footer {
+    background-color: #A62626;
+}
+
