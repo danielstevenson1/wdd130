@@ -235,9 +235,16 @@ footer {
     border-radius: 10px;
     outline: 2px solid black;
     box-shadow: 10px 10px  20px 5px black;
+    text-align: center;
 }
 
 .information h3 {
     color: black;
     margin-bottom: 10px;
+}
+
+.about_me  img {
+    padding: 0;
+    
+    margin: 3%;
 }
