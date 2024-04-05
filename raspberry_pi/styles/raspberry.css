@@ -240,6 +240,12 @@ footer {
     box-shadow: 10px 10px  20px 5px black;
     text-align: center;
 }
+.about_me-picture{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+
+}
 
 .information h3 {
     color: black;
